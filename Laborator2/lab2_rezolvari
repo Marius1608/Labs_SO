@@ -1,0 +1,4 @@
+ex1: cat /etc/passwd | grep `whoami`
+ex2: grep -v text1 lab2_2 | grep -v text2 
+ex3: find Laborator_ex -maxdepth 1 -type d | wc -l 
+

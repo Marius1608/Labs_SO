@@ -1,0 +1,14 @@
+ex1: grep "$USER:" /etc/passwd
+ex2: grep -v text1 lab2_2 | grep -v text2 
+ex3: ls -l Laborator | wc -l (Numara toate din fisier dar si directorul curent) 
+     find Laborator -maxdepth 1 -type d | wc -l (Numara doar directoarele , dar si directorul sursa)
+     (-maxdepth 1,adancimea unde cauta , type d,tipul fisierului)
+   	 
+   	 
+ 3.ll | wc -l
+   ll | tail -n +1 |
+ 
+ whoami
+ cat /etc/passwd | grep marius
+ cat /etc/passwd | grep `whoami`
+  
